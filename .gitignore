@@ -1,0 +1,30 @@
+# ==========================================
+# Data and Large File Exclusions
+# ==========================================
+
+# Block all CSV and Excel data sheets explicitly
+*.csv
+*.xlsx
+*.xls
+*.tsv
+
+# Block compressed archives (often containing raw data dumps)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Block large database files and model weights
+*.db
+*.sqlite3
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Explicitly ignore any folder dedicated to data
+data/
+datasets/
+inputs/
+outputs/
