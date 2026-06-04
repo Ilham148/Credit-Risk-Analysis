@@ -31,3 +31,5 @@ Choosing between traditional statistical models and complex machine learning alg
 | **Implementation & Stability** | **High Stability.** Highly robust against overfitting. Easy to deploy via SQL lookup tables or standard scorecard formats. | **Risk of Overfitting.** Requires careful tuning and monitoring. Deploying and tracking complex pipelines requires sophisticated MLOps infrastructure. |
 
 **The Bottom Line:** In a heavily regulated financial environment, a marginal gain in predictive accuracy from a Gradient Boosting model can be completely offset by the legal, operational, and capital costs of failing a regulatory audit. Therefore, institutions often favor the transparency of Logistic Regression with WoE, or use ensemble methods primarily as a benchmark to champion-challenge traditional scorecards.
+
+**check status
